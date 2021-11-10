@@ -4,6 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     outline: none;
+    border: none;
 }
 
 nav{
@@ -49,6 +50,62 @@ nav ul li a:hover,#active{
     display: none;
 }
 
+/* contain body */
+.content-body
+{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Images/bg-imag.jpg);
+    background-position: 10% 30%;
+    background-size: cover;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.bg-image
+{
+    text-align: center;
+    height: auto;
+    line-height: 3rem;
+    color: #fff
+}
+.bg-image h1 
+{
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+.bg-image h1 span
+{
+    color: orange;
+    font-size: 3rem;
+    text-shadow: 2px 1px 4px rgb(80, 80, 80);
+}
+
+.bg-image .discription{
+    font-size: 1.4rem;
+}
+.btn{
+    padding: 0.6rem 2rem;
+    background: #1e1e1e;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: .2rem;
+    transition: .5s;
+}
+.btn:hover{
+    transform: scale(1.1);
+    background: #474747;
+}
+.view-cv {
+    margin-top: 1rem;
+    box-shadow: 1px 2px 8px 1px #fff;
+}
+.btn a {
+    color: #fff
+}
+
 
 /* footer */
 .footer {
@@ -71,6 +128,23 @@ nav ul li a:hover,#active{
     nav ul li a{
         font-size: 1rem;
         padding: 8px;
+    }
+    .bg-image{
+        width: 80%;
+    }
+    .bg-image h1 {
+        font-size: 1.6rem;
+    }
+    .bg-image h1 span
+    {
+        font-size: 2.4rem;
+    }
+    .bg-image .discription{
+        font-size: 1.2rem;
+    }
+    .btn{
+        padding: 0.6rem 1rem;
+        font-size: 1rem;
     }
     .footer{
         font-size: .9rem;
@@ -117,6 +191,22 @@ nav ul li a:hover,#active{
     }
     #click:checked ~ .menu-bars i::before{
         content: "\f00d";
+    }
+    .bg-image{
+        line-height: 2rem;
+    }
+    .bg-image h1 {
+        font-size: 1.2rem;
+    }
+    .bg-image h1 span
+    {
+        font-size: 2rem;
+    }
+    .bg-image .discription{
+        font-size: 1rem;
+    }
+    .btn{
+        font-size: .8rem;
     }
     .footer {
         font-size: .8rem;
