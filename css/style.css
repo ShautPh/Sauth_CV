@@ -368,6 +368,7 @@ nav ul li a:hover,#active{
     .content-photo .my-background 
     {
         padding: 20px;
+        margin-left: 0;
     }
     .content-photo .my-background h2{
         font-size: 1.2rem;
