@@ -27,16 +27,16 @@ nav ul li {
 nav ul li a {
     color: #170263;
     letter-spacing: 2px;
-    font-size: 18px;
+    font-size: 1.2rem;
     padding: 8px 10px;
     transition: .5s ease-in-out;
     text-transform: uppercase;
 }
 nav ul li:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: .5s;
 }
-nav ul li a:hover{
+nav ul li a:hover,#active{
     color: #ff7200;
 }
 #click{
@@ -57,7 +57,27 @@ nav ul li a:hover{
     background: #aaa;
 }
 /* responsive */
-@media(min-width: 414px){
+@media(max-width: 1024px){
+    nav{
+        padding: 0 30px;
+    }
+    .logo img{
+        width: 3rem;
+        height: 3rem
+    }
+    nav ul li{
+        margin: 0 2px;
+    }
+    nav ul li a{
+        font-size: 1rem;
+        padding: 8px;
+    }
+    .footer{
+        font-size: .9rem;
+    }
+}
+
+@media(max-width: 580px){
     nav{
         padding: 0 20px;
     }
@@ -100,8 +120,6 @@ nav ul li a:hover{
     }
     .footer {
         font-size: .8rem;
+        padding: .8rem 0;
     }
-}
-@media(min-width: 768px){
-
 }
