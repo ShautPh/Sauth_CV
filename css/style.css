@@ -94,7 +94,7 @@ nav ul li a:hover,#active,.contain-fluid  .row .text-center h2:hover{
     letter-spacing: .2rem;
 }
 .bg-image h1 span{
-    color: orange;
+    color: #ff7200;
     font-size: 3rem;
     text-shadow: 1px 1px 1px #bbb,
                 1px 2px 1px #bbb,
@@ -597,6 +597,9 @@ nav ul li a:hover,#active,.contain-fluid  .row .text-center h2:hover{
         height: 30rem;
         padding: 3rem;
         background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/fav-home.png);
+    }
+    .stick-bg .ta-right{
+        width: 90%;
     }
     .container-card .card .body-card{
         margin: 2rem 0 ;
