@@ -213,7 +213,6 @@ nav ul li a:hover,#active,.contain-fluid  .row .text-center h2:hover{
     font-size: 1.6rem;
     width: 60%;
     color: #fff;
-    text-transform: uppercase;
     line-height: 4rem;
     letter-spacing: 2px;
 }
@@ -701,6 +700,9 @@ nav ul li a:hover,#active,.contain-fluid  .row .text-center h2:hover{
     }
     .download{
         margin-top: 2rem;
+    }
+    .description .btn{
+        margin-top: 4rem;
     }
     .content-photo,.container-card, .contain-fluid  .row{
         grid-template-columns: 1fr;
