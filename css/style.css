@@ -211,14 +211,17 @@ nav ul li a:hover,#active,.contain-fluid  .row .text-center h2:hover{
 }
 .description{
     font-size: 1.6rem;
-    width: 50%;
+    width: 60%;
     color: #fff;
     text-transform: uppercase;
     line-height: 4rem;
     letter-spacing: 2px;
 }
+.ta-right {
+    text-align: right;
+}
 .description .btn{
-    margin-top: 2rem;
+    margin-top: 4rem;
     background: #ffffff10;
 }
 .description a .fa{
@@ -415,7 +418,7 @@ nav ul li a:hover,#active,.contain-fluid  .row .text-center h2:hover{
     height: 40rem;
     background-position: center;
     background-size: cover;
-    padding: 5rem 2rem;
+    padding: 10rem 2rem;
 }
 .stick-bg .description{
     float: right;
@@ -560,7 +563,7 @@ nav ul li a:hover,#active,.contain-fluid  .row .text-center h2:hover{
     .bg-image,.content-photo .my-photo .photo{
         width: 80%;
     }
-    .content-photo .my-photo{
+    .content-photo .my-photo,.form-container .row, .content-certi{
         flex-wrap: wrap;
     }
     .width-social{
@@ -577,18 +580,29 @@ nav ul li a:hover,#active,.contain-fluid  .row .text-center h2:hover{
     .container-card,.contain-fluid  .row{
         grid-template-columns: 1fr 1fr;
     }
-    .description {
-        width: 100%;
-        font-size: 1.2rem;
+    .clip-backgroun{
+        height: 28rem;
+        padding: 4rem 2rem;
+        background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/home-education.png);
+    }
+    .description{
+        width: 80%;
+        font-size: 1rem;
+        line-height: 3.4rem;
+    }
+    .description .btn{
+        margin-top: 2rem;
+    }
+    .stick-bg{
+        height: 30rem;
+        padding: 3rem;
+        background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/fav-home.png);
     }
     .container-card .card .body-card{
         margin: 2rem 0 ;
     }
     .contain-fluid  .row {
         padding: 1rem;
-    }
-    .form-container .row, .content-certi{
-        flex-wrap: wrap;
     }
     .content-certi{
         height: 30rem;
@@ -598,11 +612,10 @@ nav ul li a:hover,#active,.contain-fluid  .row .text-center h2:hover{
         overflow: hidden;
         height: 40rem;
     }
-    .content-certi .box{
+    .content-certi .box, .form-container .row .form, .map-form{
         width: 100%;
     }
     .form-container .row .form, .map-form{
-        width: 100%;
         margin-right: 0;
     }
     .map-form{
@@ -658,11 +671,18 @@ nav ul li a:hover,#active,.contain-fluid  .row .text-center h2:hover{
     }
     .content-body
     {
-        background-image:linear-gradient(rgba(0,0,0,06),rgba(0,0,0,0.6)), url(../images/business-background.jpg);
-        height: 80vh;
+        height: 60vh;
+        padding: 4rem;
     }
     .bg-image{
-        line-height: 2.6rem;
+        line-height: 2.4rem;
+        width: 90%;
+    }
+    .bg-image h1{
+        font-size: 2rem;
+    }
+    .bg-image h1 span{
+        font-size: 2.4rem;
     }
     .download{
         margin-top: 2rem;
