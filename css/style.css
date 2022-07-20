@@ -145,10 +145,11 @@ nav ul li a:hover,#active,.contain-fluid  .row .text-center h2:hover{
     background-image: url(../Images/my-photo.jpg);
     background-position: center;
     background-size: cover;
+    object-fit: contain;
     width: 80%;
     height: 80vh;
     margin: 2rem auto;
-    box-shadow: 6px 5px 10px 4px #1e1e1e;
+    box-shadow: 2px 2px 8px 2px #7e7e7e;
 }
 .content-photo .my-background {
     width: 80%;
