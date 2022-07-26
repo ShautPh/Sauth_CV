@@ -11,6 +11,7 @@
 }
 body{
     font-family: ubuntu;
+
 }
 html{
     font-size: 97%;
@@ -77,8 +78,10 @@ nav ul li a:hover,#active,.contain-fluid  .row .text-center h2:hover{
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../Images/my-background.jpg);
     background-size: cover;
     background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
     margin: 1rem 0;
-    height: 120vh;
+    height: 80vh;
     padding: 8rem 5rem;
 
 }
